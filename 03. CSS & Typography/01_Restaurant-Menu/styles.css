@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Sentinel A';
+    src: url('./SENTINEL.TTF');
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Sentinel A' sans-serif, 'Sentinel B' sans-serif ,  Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    line-height: 1.15;
+    color: #747474;
+    text-transform: uppercase;
+}
+
+span {
+    font-family: ;
+    font-style: oblique;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.46;
+    color: #5c5a5a;
+}
+
+p {
+	font-weight: 400;
+    font-size: 16px;
+    line-height: 1.46;
+    color: #5c5a5a;
+}
