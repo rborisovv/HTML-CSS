@@ -1,0 +1,94 @@
+body {
+    position: relative;
+}
+
+p {
+    font-size: 25px;
+}
+
+body header p {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, serif;
+    font-size: 2.5drem;
+}
+
+header nav {
+    list-style-type: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+header nav li {
+    display: inline-block;
+    padding-right: 20px;
+    color: green;
+}
+
+aside {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateY(30%);
+}
+
+aside ul a {
+    color: green;
+    text-decoration: none;
+}
+
+main {
+    position: relative;
+}
+
+main section p {
+    width: 75%;
+}
+
+img {
+    box-shadow: rgba(0, 0, 0, 0.25)
+}
+
+#top-img {
+    position: absolute;
+    width: 7%;
+    border: 2px solid black;
+    padding: 5px;
+    top: 25px;
+    right: 17rem;
+    float: right;
+}
+
+div.wrapper {
+    display: grid;
+    grid-template-columns: 50% 50%;   
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    margin-top: 2px;
+    border-left: 2px solid rgb(136, 120, 120);
+    margin-left: -8rem;
+    padding-left: 40px;
+}
+
+p#author {
+    text-align: right;
+}
+
+main article {
+    position: relative;
+}
+
+#bottom-img {
+    float: left;
+    width: 7%;
+    border: 3px solid black;
+    padding: 5px;
+}

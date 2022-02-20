@@ -1,0 +1,24 @@
+.viewport {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 800px;
+
+    background-image: linear-gradient(to right top, #0247af, #0076d4, #00a0e1, #00c7dc, #12ebce);
+}
+
+.viewport:last-child {
+    background-image: linear-gradient(to right top, #6f1c1c, #943f2d, #b9633f, #dd8853, #ffb068);
+}
+
+.card {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    width: 80%;
+}

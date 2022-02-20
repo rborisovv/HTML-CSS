@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    margin-top: 100px;
+}
+
+ul li {
+    display: inline-block;
+    padding: 15px;
+}
+
+a {
+    border: 1px solid #b0a8b9;
+    border-radius: 50%;
+    background-color: #b0a8b9;
+    padding: 50px;
+    font-size: 50px;
+}
+
+.fa-facebook-square:hover {
+    color: #1256e9;
+}
+
+.fa-twitter:hover {
+    color: #20B1FB
+}
+
+.fa-google-plus:hover {
+    color: #BC0E0E;
+}
+
+.fa-linkedin:hover {
+    color: #009EE1;
+}
+
+.fa-instagram:hover {
+    color: #1270C3;
+}
