@@ -1,0 +1,13 @@
+@media screen and (max-width: 600px) {
+    .w3-hide-small {
+        display: none;
+    }
+
+    article:nth-of-type(2).w3-col.m6 {
+        width: 100%;
+    }
+
+    .w3-padding-large.l6 {
+        width: 100%;
+    }
+}

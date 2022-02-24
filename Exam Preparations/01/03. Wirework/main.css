@@ -1,0 +1,134 @@
+html {
+    font-family: Helvetica;
+}
+
+figure {
+    margin: 0;
+}
+
+figure>img {
+    width: 100%;
+}
+
+.container {
+    position: relative;
+}
+
+.wrapper {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    width: 90.8vw;
+    padding: 5rem;
+    bottom: 0;
+    left: 0;
+
+    color: #fff;
+    background-color: orangered;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+.icons-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: 25rem;
+    background-color: #2a272a;
+}
+
+.icons-wrapper>ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90.8vw;
+}
+
+.icons-wrapper>ul>li {
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+    color: white;
+}
+
+figcaption {
+    color: grey;
+}
+
+i {
+    font-size: 4rem;
+    width: 100px;
+    height: 100px;
+    background-color: orangered;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.description-container {
+    height: 18rem;
+    position: relative;
+}
+
+.description-wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+.description-wrapper>h2 {
+    font-size: 35px;
+}
+
+.description-wrapper>p {
+    margin-top: -27px;
+    margin-bottom: 20px;
+}
+
+.description-wrapper>button {
+    width: 15rem;
+    padding: 18px;
+    background-color: #00c38c;
+    color: white;
+    font-size: 18px;
+}
+
+.description {
+    display: flex;
+    height: 25rem;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+    background-color: #2a272a;
+}
+
+.description h2 {
+    font-size: 25px;
+    margin-bottom: 2.5rem;
+    color: white;
+}
+
+.description p {
+    color: grey;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 12rem;
+    background-color: #00c38c;
+    color: grey
+}
+
+footer > p > span {
+    color: white;
+}
